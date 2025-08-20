@@ -1,0 +1,91 @@
+
+
+
+.side-bar{
+  min-height: 100vh;
+  background-color: #f0f4f9;
+  font-family: "outfit", sans-serif;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 15px 15px 15px;
+  width: 80px; 
+  transition: width 0.2s linear;
+  overflow:hidden;
+}
+
+.side-bar.extended {
+  width: 230px; 
+}
+
+.side-bar img{
+  width: 20px;
+}
+
+.side-bar .menu{
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.side-bar .newchat {
+  background-color:#e6eaf1;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  color: gray;
+}
+.side-bar .newchat:active{
+  background-color: #d3d9e0;
+}
+
+.side-bar .recent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: fadeIn 1.5s;
+}
+
+.side-bar .recent-title {
+  margin-top: 30px;
+}
+
+.side-bar .bottom {
+  margin-bottom: 10px;
+  
+}
+
+.side-bar .recent-entry{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  
+  border-radius: 50px;
+  padding: 10px 40px 10px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ .recent-entry:hover{
+  background-color: #e6eaf1;
+}
+
+.side-bar .botton-item {
+  padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .side-bar {
+    display: none;
+  }
+}

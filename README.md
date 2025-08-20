@@ -3,7 +3,7 @@
 A sleek AI chat interface inspired by Google Gemini, built with React and Vite. Designed for smooth user experience and modern web standards.
 
 ##  Live Demo
-[Try it out live](https://your-vercel-url.vercel.app)
+[Try it out live](https://gemini-clone-pozd.vercel.app/)
 
 ##  Key Features
 - Clean and responsive chat UI with modern design
